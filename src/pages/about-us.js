@@ -204,7 +204,7 @@ const Navbar = () => {
           </p>
           <br/>
           <h4 class="about-encapsulon">
-          Our Founders' Journey
+          Our Founders&apos; Journey
             </h4>
           <p>
           <b>Manishi Mehta</b> brings a wealth of experience and a unique perspective to Encapsulon. A mechanical engineering graduate from Thapar Institute of Engineering and Technology in Patiala, India, and an MBA in Information Technology from Schiller 
