@@ -6,7 +6,6 @@ import { ArrowUp } from "lucide-react"; // Arrow Icon
 import { FaShoppingCart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import "../components/Aboutnav/blogtext.css";
 import Footer from "../components/Footer/bottom";
 import { usePathname } from "next/navigation";
 

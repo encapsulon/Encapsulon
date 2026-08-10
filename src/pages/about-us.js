@@ -8,7 +8,6 @@ import { FaShoppingCart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-import "../components/Aboutnav/soft.css";
 import Footer from "../components/Footer/bottom";
 import { usePathname } from "next/navigation";
 const Navbar = () => {

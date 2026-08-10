@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 import { FaShoppingCart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import "../components/Aboutnav/contactsoft.css";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone} from "react-icons/fa";
 import Google from '../components/map/google'
 import Footer from "../components/Footer/bottom";
