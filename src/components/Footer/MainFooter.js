@@ -1,5 +1,5 @@
 import React from "react";
-import "./putra.css";
+import "./MainFooter.css";
 import Link from 'next/link';
 import { MapPin, Phone, Mail } from 'lucide-react';
 

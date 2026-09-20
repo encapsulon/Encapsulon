@@ -9,7 +9,7 @@
   justify-content: space-between;
   height: 100vh;
   padding: 0 5%;
-  background: url("/assest/pattern-1.png") no-repeat center center/cover;
+  background: url("/assest/pattern-1.webp") no-repeat center center/cover;
   animation: backgroundAnimation 10s linear infinite alternate;
   position: relative;
   overflow: hidden;
@@ -34,6 +34,7 @@
   text-transform: uppercase;
   background: linear-gradient(90deg, rgb(197, 161, 24), rgb(3, 115, 225), rgb(6, 22, 99));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
   animation: textColor 4s infinite alternate;

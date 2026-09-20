@@ -2,13 +2,13 @@
 import { useState ,useEffect} from "react";
 import { useRouter } from "next/router";// Import useRouter
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import { FaShoppingCart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import "../components/Aboutnav/bproducts.css";
+import "../components/Aboutnav/BrandedProducts.css";
 import { ArrowUp } from "lucide-react"; // Arrow Icon
-import Footer from "../components/Footer/bottom";
+import Footer from "../components/Footer/MainFooter";
 
 
 
@@ -16,7 +16,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const router = useRouter(); // Initialize useRouter
   const [isDropdownOpen, setIsDropdownOpen] = useState(false); // Dropdown state
-  const pathname = usePathname();
+  // const pathname = usePathname();
+  const pathname = router.pathname;
   const [showButton, setShowButton] = useState(false);
  
 
@@ -25,108 +26,108 @@ const Navbar = () => {
 
   const features = [
     {
-      image: "/assest/bp-ez-mega-3.png.webp",
+      image: "/assest/medical-green.png",
       title: "Fish oils",
-      description: "Omega-3 fish oil concentrate. No fishy smell or taste.",
+    
     },
    
     {
-      image: "/assest/CoQsolCF.png.webp",
+      image: "/assest/medical-green.png",
       title: "Astaxanthin 12mg",
-      description: "A 100% crystal-free formulation clinically proven to provide superior bioavailability of CoQ10.",
+      
     },
     {
-      image: "/assest/CoQHcf.png.webp",
+      image: "/assest/medical-green.png",
       title: "PurZanthin",
-      description: "A completely solubilized reduced CoQ10 (ubiquinol) formula.",
+      
     },
     {
-      image: "/assest/thumb-coq10.png.webp",
+      image: "/assest/medical-green.png",
       title: "Black Current 500mg & 1000mg",
-      description: "Superior absorption CoQ10.",
+      
     },
    
     {
-      image: "/assest/thumb-smart-ps.png.webp",
+      image: "/assest/medical-green.png",
       title: "CoQ10 100mg",
-      description: "Stable form of phosphatidylserine for maximum brain benefits.",
+      
     },
    
     {
-      image: "/assest/thumb-other-porducts.png.webp",
+      image: "/assest/medical-green.png",
       title: "CoQ10 + Omega 3",
-      description: "Proprietary blend of pumpkin seed extract and soy germ isoflavones.",
+      
     },
     {
-        image: "/assest/bp-ez-mega-3.png.webp",
+        image: "/assest/medical-green.png",
         title: "Vitamin D3",
-        description: "Omega-3 fish oil concentrate. No fishy smell or taste.",
+        
       },
      
       {
-        image: "/assest/CoQsolCF.png.webp",
+        image: "/assest/medical-green.png",
         title: "Vitamin D3 +K2",
-        description: "A 100% crystal-free formulation clinically proven to provide superior bioavailability of CoQ10.",
+        
       },
       {
-        image: "/assest/CoQHcf.png.webp",
+        image: "/assest/medical-green.png",
         title: "Evening Primrose 500mg",
-        description: "A completely solubilized reduced CoQ10 (ubiquinol) formula.",
+        
       },
       {
-        image: "/assest/thumb-coq10.png.webp",
+        image: "/assest/medical-green.png",
         title: "Evening Primrose 1000mg",
-        description: "Superior absorption CoQ10.",
+      
       },
      
       {
-        image: "/assest/thumb-smart-ps.png.webp",
+        image: "/assest/medical-green.png",
         title: "Garcinia",
-        description: "Stable form of phosphatidylserine for maximum brain benefits.",
+        
       },
      
       {
-        image: "/assest/thumb-other-porducts.png.webp",
+        image: "/assest/medical-green.png",
         title: "Prostate",
-        description: "Proprietary blend of pumpkin seed extract and soy germ isoflavones.",
+        
       },
       {
-        image: "/assest/thumb-smart-ps.png.webp",
+        image: "/assest/medical-green.png",
         title: "Joint relief",
-        description: "Stable form of phosphatidylserine for maximum brain benefits.",
+        
       },
      
       {
-        image: "/assest/thumb-other-porducts.png.webp",
+        image: "/assest/medical-green.png",
         title: "Green lipped mussel",
-        description: "Proprietary blend of pumpkin seed extract and soy germ isoflavones.",
+        
       },
       {
-          image: "/assest/bp-ez-mega-3.png.webp",
+          image: "/assest/medical-green.png",
           title: "Turmeric Curcumin",
-          description: "Omega-3 fish oil concentrate. No fishy smell or taste.",
+          
         },
        
         {
-          image: "/assest/CoQsolCF.png.webp",
+          image: "/assest/medical-green.png",
           title: "Flaxseed Oil",
-          description: "A 100% crystal-free formulation clinically proven to provide superior bioavailability of CoQ10.",
+          
         },
         {
-          image: "/assest/CoQHcf.png.webp",
+          image: "/assest/medical-green.png",
           title: "Oregano Oil",
-          description: "A completely solubilized reduced CoQ10 (ubiquinol) formula.",
+        
         },
         {
-          image: "/assest/thumb-coq10.png.webp",
+          image: "/assest/medical-green.png",
           title: "Omega Krill",
-          description: "Superior absorption CoQ10.",
+          
         },
        
         {
-          image: "/assest/thumb-smart-ps.png.webp",
+          image: "/assest/medical-green.png",
           title: "Tonalin Safflower Oil",
-          description: "Stable form of phosphatidylserine for maximum brain benefits.",
+        
         },
        
        
@@ -291,14 +292,14 @@ const Navbar = () => {
           <Image
   src={feature.image}
   alt={feature.title}
-  width={60}
-  height={60}
+  width={100}
+  height={100}
   priority
   unoptimized
 />
           </div>
-          <h3 className="featureTitle">{feature.title}</h3>
-          <p className="featureDescription">{feature.description}</p>
+          <h1 className="featureTitle">{feature.title}</h1>
+          
         </div>
       ))}
     </div>

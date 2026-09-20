@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaShoppingCart, FaSearch, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import "./novot.css";
+import "./HomeHeroNavbar.css";
 
 import { ArrowRight } from "lucide-react";
 

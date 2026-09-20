@@ -4,7 +4,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   padding: 80px 10%;
-  background: url('/assest/bg.jpg') no-repeat center center/cover;
+  background: url('/assest/bg.webp') no-repeat center center/cover;
   color: whitesmoke;
   text-align: left;
   animation: fadeIn 1.5s ease-in-out;
@@ -67,7 +67,7 @@ p {
 .column-image {
   width: 100%;
   max-width: 350px;
-  height: 350; /* Auto height for better responsiveness */
+  height: auto; /* Auto height for better responsiveness */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
 }

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { FaQuoteLeft } from "react-icons/fa";
-import "./vonov.css";
+import "./TestimonialsSlider.css";
 
 const comments = [
   {

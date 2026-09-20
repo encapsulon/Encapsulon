@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import "./mono.css";
+import "./QualityExpertiseSection.css";
 
 const Header = () => {
   return (
@@ -72,7 +72,7 @@ const Header = () => {
         className="header-image"
       >
        
-        <Image src="/assest/head.png" alt="Your Alt Text" width={308} height={100} />
+        <Image src="/assest/head.webp" alt="Your Alt Text" width={308} height={100} />
       </motion.div>
     </div>
   );

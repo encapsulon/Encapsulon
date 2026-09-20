@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaShoppingBag, FaCheckCircle, FaBuilding } from "react-icons/fa";
 import { RiFileTextLine } from "react-icons/ri";
-import "./kidit.css";
+import "./ServiceHighlights.css";
 import { useRouter } from "next/navigation"; // ✅ Correct for App Router
 import { ArrowRight } from "lucide-react";
 
@@ -96,7 +96,7 @@ const Middle = () => {
         className="column third-column"
       >
         <motion.img
-          src="assest/softgel-capsule-capsule-in-bottle.jpg"
+          src="assest/softgel-capsule-capsule-in-bottle.webp"
           alt="Softgel Capsules"
           className="column-image"
           whileHover={{ scale: 1.05 }}

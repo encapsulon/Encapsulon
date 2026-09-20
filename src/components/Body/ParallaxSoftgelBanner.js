@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./hoko.css";
+import "./ParallaxSoftgelBanner.css";
 import { useRouter } from "next/navigation";
 
 const Backbody = () => {

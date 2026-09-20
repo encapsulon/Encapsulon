@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/_next/*",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/*.{css,js,png,jpg,jpeg,gif,svg,ico,woff,woff2}",
+      "allowedRoles": ["anonymous"]
+    },
+    {
+      "route": "/maintenance.html",
+      "allowedRoles": ["anonymous"]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import "./endpoint.css";
+import "./ManufacturingProcess.css";
 
 export async function getServerSideProps() {
   return { props: { time: new Date().toISOString() } };

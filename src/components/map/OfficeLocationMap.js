@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from "react";
 import { GoogleMap, Marker, useLoadScript } from "@react-google-maps/api";
+import "../../components/Aboutnav/Contact.css";
 
 const mapContainerStyle = {
   width: "100%",
