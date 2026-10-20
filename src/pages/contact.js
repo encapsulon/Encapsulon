@@ -313,9 +313,9 @@ const Navbar = () => {
             <div className="info-header1">
             <h3>Location</h3>
           
-          <p>25 Melville Park Road,
+          <p>136 Remington Blvd,
 
-Suite 225, Melville, NY 11747</p>
+Ronkonkoma, NY 11779</p>
           </div>
         </div>
         <hr />
