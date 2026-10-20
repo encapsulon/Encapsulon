@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="middle-fot">
           <h3>Get in touch</h3>
           <div className="contact-details12">
-  <p><MapPin size={18} /> 25 Melville Park Road, Suite 225,<br /> Melville, NY 11747</p>
+  <p><MapPin size={18} /> 136 Remington Blvd,<br /> Ronkonkoma, NY 11779</p>
   <p><Phone size={18} /> +1 (516) 476-1115</p>
   <p><Mail size={18} /> contact@encapsulon.com</p>
 </div>
