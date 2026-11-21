@@ -205,10 +205,11 @@ const Navbar = () => {
   </div>
 </div>
 
-<div className="content-container">
+{/* <div className="content-container">
   <div className="image-section">
     <Image src="/assest/Office-Shot.jpg" alt="Image" width={150} height={150}/>
   </div>
+  
   <div className="text-section">
     <h2 className="title">Wholefoods Magazine Company Profile</h2>
     <div className="date-time">March 27, 2025 • 8:00 PM</div>
@@ -222,7 +223,7 @@ const Navbar = () => {
     </p>
     
   </div>
-</div>
+</div> */}
 
 <div className="content-container">
   <div className="image-section">
@@ -235,7 +236,7 @@ const Navbar = () => {
     Supplement quality control from white label and private label manufacturers is critical for retailers looking to offer safe and effective supplements for their customers. From the raw materials sourced to final product testing,
      every stage of the manufacturing process impacts the quality of the final product.
      <br/>
-     Below, we will examine how supplement quality is determined, what certification processes exist to ensure a high standard in production, and how Soft Gel Technologies 
+     Below, we will examine how supplement quality is determined, what certification processes exist to ensure a high standard in production, and how Encapsulon 
      exceeds industry expectations to offer the highest quality supplements.
      <br/>
      Regulations generally treat the quality standard as an examination before, during, and after production, ensuring quality products enter production, compliant manufacturing conditions are maintained, and the end result matches the claims made about 
