@@ -26,12 +26,12 @@ const Navbar = () => {
 
   const features = [
     {
-      image: "/assest/bp-ez-mega-3.png.webp",
-      title: "EZ Mega 3",
-      description: "Omega-3 fish oil concentrate. No fishy smell or taste.",
+      image: "/assest/shilavex.webp"  ,
+      title: "Shilavex",
+      description: "Ancient Wisdom Modern Science.",
     },
    
-    {
+    /* {
       image: "/assest/CoQsolCF.png.webp",
       title: "CoQsol-CF",
       description: "A 100% crystal-free formulation clinically proven to provide superior bioavailability of CoQ10.",
@@ -57,7 +57,7 @@ const Navbar = () => {
       image: "/assest/thumb-other-porducts.png.webp",
       title: "Femalgen",
       description: "Proprietary blend of pumpkin seed extract and soy germ isoflavones.",
-    },
+    }, */
   ];
   
   const toggleMenu = () => {
