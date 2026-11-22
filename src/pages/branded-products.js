@@ -26,38 +26,42 @@ const Navbar = () => {
 
   const features = [
     {
-      image: "/assest/shilavex.webp"  ,
+      image: "/assest/Nuraviq/shilavex.webp"  ,
       title: "Shilavex",
       description: "Ancient Wisdom Modern Science.",
     },
    
-    /* {
-      image: "/assest/CoQsolCF.png.webp",
-      title: "CoQsol-CF",
-      description: "A 100% crystal-free formulation clinically proven to provide superior bioavailability of CoQ10.",
+    {
+      image: "/assest/Nuraviq/AstaNexa.png",
+      title: "AstaNexa",
+      description: "Astaxanthin Softhels 100% Antioxident Support for the day .",
     },
     {
-      image: "/assest/CoQHcf.png.webp",
-      title: "CoQH-CF",
-      description: "A completely solubilized reduced CoQ10 (ubiquinol) formula.",
+      image: "/assest/Nuraviq/BerbeVanta.png",
+      title: "BerbeVanta",
+      description: "Berberine Hcl Softgels. Rooted in Nature. Made for Your Daily Routine.",
     },
     {
-      image: "/assest/thumb-coq10.png.webp",
-      title: "CoQsol",
-      description: "Superior absorption CoQ10.",
-    },
-   
-    {
-      image: "/assest/thumb-smart-ps.png.webp",
-      title: "Smart PS",
-      description: "Stable form of phosphatidylserine for maximum brain benefits.",
+      image: "/assest/Nuraviq/Nuraviq_CoQ10.png",
+      title: "CoQ10",
+      description: "Coenzyme CoQ10 in Extra Virgin Olive Oil.",
     },
    
     {
-      image: "/assest/thumb-other-porducts.png.webp",
-      title: "Femalgen",
-      description: "Proprietary blend of pumpkin seed extract and soy germ isoflavones.",
-    }, */
+      image: "/assest/Nuraviq/NMN Resvera.png",
+      title: "NMN Resvera",
+      description: "NMN + TRANS-Reservatrol Softgels.",
+    },
+   {
+      image: "/assest/Nuraviq/OregaShield.png",
+      title: "OregaSheild",
+      description: "Oregano Oil + Blackseed Oil Softgels .",
+    },
+    {
+      image: "/assest/Nuraviq/OmegaNerva.png",
+      title: "OmegaNerva",
+      description: "Calamary + Krill Oil Softgels.",
+    },
   ];
   
   const toggleMenu = () => {
@@ -255,7 +259,7 @@ const Navbar = () => {
          </p>
          <br/>
          <p className="description66">
-         Unlike other contract manufacturers who sell their own branded product lines directly to consumers, we only sell B-to-B to further protect our customers.
+         We are contract manufacturers who make their own branded product lines too under the name Nuraviq. Please reach out if you are interested in marketing our products. 
          </p>
          
          <br/>
